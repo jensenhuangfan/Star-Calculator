@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardust Calculator - Premium Space Math Experience</title>
+    <meta name="description" content="A gorgeous, interactive web calculator featuring twinkling stardust, active mouse gravity, and stellar visual effects.">
+    <!-- Google Fonts for futuristic space styling -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- The high-performance stellar backdrop canvas -->
+    <canvas id="space-canvas"></canvas>
+
+    <main class="calculator-container">
+        <section class="calculator-shell" aria-label="Calculator Interface">
+            <header class="display-container">
+                <h1 class="visually-hidden">Stardust Calculator</h1>
+                <div id="display-expr" class="display-expr" aria-live="polite"></div>
+                <div id="display-result" class="display-result" aria-live="polite">0</div>
+            </header>
+
+            <div class="keyboard-grid" role="grid">
+                <!-- Row 1 -->
+                <button id="btn-clear" class="btn btn-danger" role="gridcell" aria-label="Clear">C</button>
+                <button id="btn-backspace" class="btn btn-warning" role="gridcell" aria-label="Backspace">⌫</button>
+                <button id="btn-mod" class="btn btn-operator" role="gridcell" aria-label="Modulo">%</button>
+                <button id="btn-divide" class="btn btn-operator" role="gridcell" aria-label="Divide">/</button>
+
+                <!-- Row 2 -->
+                <button id="btn-7" class="btn btn-digit" role="gridcell">7</button>
+                <button id="btn-8" class="btn btn-digit" role="gridcell">8</button>
+                <button id="btn-9" class="btn btn-digit" role="gridcell">9</button>
+                <button id="btn-multiply" class="btn btn-operator" role="gridcell" aria-label="Multiply">*</button>
+
+                <!-- Row 3 -->
+                <button id="btn-4" class="btn btn-digit" role="gridcell">4</button>
+                <button id="btn-5" class="btn btn-digit" role="gridcell">5</button>
+                <button id="btn-6" class="btn btn-digit" role="gridcell">6</button>
+                <button id="btn-subtract" class="btn btn-operator" role="gridcell" aria-label="Subtract">-</button>
+
+                <!-- Row 4 -->
+                <button id="btn-1" class="btn btn-digit" role="gridcell">1</button>
+                <button id="btn-2" class="btn btn-digit" role="gridcell">2</button>
+                <button id="btn-3" class="btn btn-digit" role="gridcell">3</button>
+                <button id="btn-add" class="btn btn-operator" role="gridcell" aria-label="Add">+</button>
+
+                <!-- Row 5 -->
+                <button id="btn-0" class="btn btn-digit btn-double" role="gridcell">0</button>
+                <button id="btn-decimal" class="btn btn-digit" role="gridcell" aria-label="Decimal">.</button>
+                <button id="btn-equals" class="btn btn-equals" role="gridcell" aria-label="Equals">=</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project logic & particle effects script -->
+    <script src="script.js"></script>
+</body>
+</html>

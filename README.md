@@ -1,8 +1,8 @@
-# ✨ Stardust Calculator ✨
+# Stardust Calculator :3
 
 > A premium, highly-interactive cosmic math experience built with raw performance and elegant aesthetics.
 
-Stardust Calculator is not just a tool for computation—it is an immersive visual experience. Inspired by the depth of deep space, it features a custom HTML5 canvas background depicting twinkling stars, high-speed shooting meteors, active gravitational mouse repulsion, and a responsive physics-based particle engine.
+Stardust Calculator is a tool for basic mathamatics. Inspired by the depth of deep space, it features a custom HTML5 canvas background depicting twinkling stars, high-speed shooting meteors, active gravitational mouse repulsion, and a responsive physics-based particle engine.
 
 ---
 

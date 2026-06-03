@@ -28,19 +28,3 @@ The calculator was built from the ground up using pure, modern web standards for
 
 Since Stardust Calculator uses zero dependencies or build steps, it can be run instantly in any modern web browser at https://jensenhuangfan.github.io/Star-Calculator/
 ---
-
-## 🎹 Keyboard Controls
-
-| Key | Calculator Function | Visual Animation |
-|:---:|:---:|:---:|
-| `0` - `9` | Digits | Highlights digit button & sparks |
-| `+`, `-`, `*`, `/` | Arithmetic Operators | Highlights operator button & cyan sparks |
-| `%` | Modulo | Highlights `%` button & cyan sparks |
-| `.` | Decimal Point | Highlights `.` button & sparks |
-| `Enter` or `=` | Evaluate | Highlights `=` button & golden sparks |
-| `Backspace` | Delete Last Input | Highlights `⌫` button & orange sparks |
-| `Escape` | Clear All | Highlights `C` button & red sparks |
-
----
-
-*Crafted with cosmic curiosity.* 🌌

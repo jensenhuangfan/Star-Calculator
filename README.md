@@ -2,7 +2,7 @@
 
 > A premium, highly-interactive cosmic math experience built with raw performance and elegant aesthetics.
 
-Stardust Calculator is a tool for basic mathamatics. Inspired by the depth of deep space, it features a custom HTML5 canvas background depicting twinkling stars, high-speed shooting meteors, active gravitational mouse repulsion, and a responsive physics-based particle engine.
+Stardust Calculator is a tool for basic mathamatics. Inspired by the depth of deep space, it features a custom HTML5 canvas background depicting twinkling stars, high-speed shooting meteors, active gravitational mouse repulsion, and a responsive physics-based particle engine :3
 
 ---
 
@@ -32,20 +32,7 @@ The calculator was built from the ground up using pure, modern web standards for
 
 ## 🚀 How to Run
 
-Since Stardust Calculator uses zero dependencies or build steps, it can be run instantly in any modern web browser:
-
-1. **Clone or Download** this directory.
-2. **Double-click** the [index.html](file:///c:/Users/Will7/Downloads/stardance/Star-Calculator/index.html) file to open it in your browser.
-3. Alternatively, serve it locally with any simple static server:
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   
-   # Node.js
-   npx serve .
-   ```
-4. Access the server via `http://localhost:8000`.
-
+Since Stardust Calculator uses zero dependencies or build steps, it can be run instantly in any modern web browser at https://jensenhuangfan.github.io/Star-Calculator/
 ---
 
 ## 🎹 Keyboard Controls

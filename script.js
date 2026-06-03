@@ -339,7 +339,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (validKeys.includes(key)) {
             e.preventDefault();
-            handleInput(key);
 
             // Locate corresponding button element to trigger physical click animations
             let btnId = '';
